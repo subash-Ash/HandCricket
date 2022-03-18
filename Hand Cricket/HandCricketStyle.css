@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-image:url("wp4844549-cricket-pitch-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.green{
+    color: rgba(57, 155, 1, 0.8);
+}
+
+.red{
+    color: rgba(244, 13, 13, 0.8);
+}
+
+#navbar{
+    background-color: black;
+    height: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#title{
+    color: aliceblue;
+    font-size: 2.5rem;
+    
+}
+
+#container{
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 25px 32px 22px -8px rgba(0,0,0,1);
+    text-align: center;
+    width: 40%;
+    border-radius: 2rem;
+}
+
+#tossContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.selectButton{
+    width: 5rem;
+    border-radius: 1rem;
+    border: none;
+    height: 1.5rem;
+    
+    background-color: rgba(6, 1, 5, 0.17);
+    margin: 1rem;
+}
+
+.selectButton:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.YouCPU{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+#tableContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+.balls{
+   border: none;
+   height: 1.5rem;
+   width: 1.5rem;
+   border-radius: 50%;
+   background: url("Capture.PNG");
+   background-size: contain;
+   font-size: 1rem;
+   font-weight: 600;
+
+}
+
+.balls:hover{
+    background: none;
+    background-color: brown;
+}
+
+.choiceContainer{
+    font-size: 1.2rem;
+    
+}
+
+#playerChoice, #cpuChoice{
+    color: rgba(18, 25, 251, 0.8);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+ 
+#totalRuns{
+    font-size: 1rem;
+}
+
+
+#scoreCardContainer, #resultParagraph{
+    font-size: 2.5rem;
+}
+
+#result{
+    margin-top: 1rem;
+}
+
+#reset{
+    background-color: black;
+    color: white;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#reset:hover {
+   background-color: aliceblue;
+}
