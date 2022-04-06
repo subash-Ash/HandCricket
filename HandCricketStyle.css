@@ -45,12 +45,13 @@ table {
 body{
     background-image:url("wp4844549-cricket-pitch-wallpapers.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     font-family: 'Bebas Neue', cursive;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 
 .green{
@@ -176,4 +177,20 @@ body{
 
 #reset:hover {
    background-color: aliceblue;
+}
+
+@media (max-width:480px){
+    #container{
+        width: 75%;
+    }
+    #tableContainer{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .YouCPU{
+       width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
